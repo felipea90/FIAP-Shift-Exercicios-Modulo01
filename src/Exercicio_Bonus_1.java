@@ -10,7 +10,7 @@ public class Exercicio_Bonus_1 {
 		
 		double distanciaPercorrida, combustivelGasto, consumoMedio;
 		
-		System.out.println("Programa que calcula o consumo médio de combustível de um automóvel em Quilômetros por litro.");
+		System.out.println("Programa que calcula o consumo médio de combustível de um automóvel em Quilômetros por litro.\n");
 		
 		System.out.println("Informe a distância percorrida em quilômetros (KM):");
 		distanciaPercorrida = leitor.nextDouble();
@@ -20,7 +20,7 @@ public class Exercicio_Bonus_1 {
 		
 		consumoMedio = distanciaPercorrida / combustivelGasto;
 		
-		System.out.println("O consumo médio deste automóvel foi: " + consumoMedio + " KM/L");
+		System.out.println("O consumo médio deste automóvel foi:\n" + consumoMedio + " KM/L");
 		
 		leitor.close();
 
