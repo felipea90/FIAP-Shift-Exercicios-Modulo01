@@ -40,12 +40,12 @@ public class Exercicio_Bonus_3
 			if (idade > 40) 
 			{
 				pontuacao = 0;
-				System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+				System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 			}
 			else 
 			{
 				pontuacao = 150;
-				System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+				System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 			}
 		}
 		else if (escolha == 2) 
@@ -61,13 +61,13 @@ public class Exercicio_Bonus_3
 				{
 					
 					pontuacao = 20;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					
 					pontuacao = 170;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 			
 			}
@@ -78,13 +78,13 @@ public class Exercicio_Bonus_3
 				{
 					
 					pontuacao = 40;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					
 					pontuacao = 190;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 			}
 		}
@@ -98,12 +98,12 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 50;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 200;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 			}
 			else if (xp == 2)
@@ -111,12 +111,12 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 70;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 220;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 			}
 			else 
@@ -124,12 +124,12 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 100;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 250;
-					System.out.println("Sua pontuação total será de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontuação total será de: " + pontuacao + " pontos"); 
 				}
 			}
 		}
