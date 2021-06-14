@@ -24,24 +24,28 @@ public class Exercicio_Bonus_2 {
 		System.out.println("Informe o consumo total de KW/h:");
 		consumo = leitor.nextDouble();
 		
-		System.out.println("Esoclha o tipo de estabelecimento:\n");
+		System.out.println("Escolha o tipo de estabelecimento:\n");
 		
 		System.out.println("1 - Residência\n2 - Comércio\n3 - Indústria");
 		escolha = leitor.nextInt();
 		
 		if (escolha == 1) {
+			
 			kwh = consumo * residencia;
 			System.out.println("O consumo total de Luz da sua Residência é:\n" + "R$ " + kwh);
 		}
 		else if (escolha == 2) {
+			
 			kwh = consumo * comercio;
 			System.out.println("O consumo total de Luz do seu Comércio é:\n" + "R$ "  + kwh);
 		}
 		else if (escolha == 3) {
+			
 			kwh = consumo * industria;
 			System.out.println("O consumo total de Luz da sua Indústria é:\n" + "R$ "  + kwh);
 		}
 		else {
+			
 			System.out.println("A opção escolhida está inválida!");
 		}
 		
