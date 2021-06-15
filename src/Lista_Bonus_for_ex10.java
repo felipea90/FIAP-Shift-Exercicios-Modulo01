@@ -40,28 +40,28 @@ public class Lista_Bonus_for_ex10
 					
 					if (placa == 1 || placa == 2) 
 					{
-						System.out.println("Seu dia de rodízio é SEGUNDA-FEIRA");
+						System.out.println(nome + " do setor de " + setor + "\nSeu dia de rodízio é SEGUNDA-FEIRA");
 					}
 					else if (placa == 3 || placa == 4) 
 					{
-						System.out.println("Seu dia de rodízio é TERÇA-FEIRA");
+						System.out.println(nome + " do setor de " + setor + "\nSeu dia de rodízio é TERÇA-FEIRA");
 					}
 					else if (placa == 5 || placa == 6) 
 					{
-						System.out.println("Seu dia de rodízio é QUARTA-FEIRA");
+						System.out.println(nome + " do setor de " + setor + "\nSeu dia de rodízio é QUARTA-FEIRA");
 					}
 					else if (placa == 7 || placa == 8) 
 					{
-						System.out.println("Seu dia de rodízio é QUINTA-FEIRA");
+						System.out.println(nome + " do setor de " + setor + "\nSeu dia de rodízio é QUINTA-FEIRA");
 					}
 					else if (placa == 9 || placa == 0) 
 					{
-						System.out.println("Seu dia de rodízio é SEXTA-FEIRA");
+						System.out.println(nome + " do setor de " + setor + "\nSeu dia de rodízio é SEXTA-FEIRA");
 					}
 				}
 				else if (escolha == 2)
 				{
-					System.out.println("Rodízio não se aplica.");
+					System.out.println(nome + " do setor de " + setor + "\nO Rodízio não se aplica.");
 				}
 				else
 				{
