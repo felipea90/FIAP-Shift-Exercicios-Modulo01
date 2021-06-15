@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio_Bonus_1 {
 
-	//1. Escrever um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto. 
+	//1. Escrever um algoritmo para determinar o consumo mï¿½dio de um automï¿½vel sendo fornecida a distï¿½ncia total percorrida pelo automï¿½vel e o total de combustï¿½vel gasto. 
 	
 	public static void main(String[] args) {
 		
@@ -10,17 +10,17 @@ public class Exercicio_Bonus_1 {
 		
 		double distanciaPercorrida, combustivelGasto, consumoMedio;
 		
-		System.out.println("Programa que calcula o consumo médio de combustível de um automóvel em Quilômetros por litro.\n");
+		System.out.println("Programa que calcula o consumo mÃ©dio de combustÃ­vel de um automÃ³vel em QuilÃ´metros por litro.\n");
 		
-		System.out.println("Informe a distância percorrida em quilômetros (KM):");
+		System.out.println("Informe a distÃ¢ncia percorrida em quilÃ´metros (KM):");
 		distanciaPercorrida = leitor.nextDouble();
 		
-		System.out.println("Informe a quantidade de combustível gasto em litros:");
+		System.out.println("Informe a quantidade de combustÃ­vel gasto em litros:");
 		combustivelGasto = leitor.nextDouble();
 		
 		consumoMedio = distanciaPercorrida / combustivelGasto;
 		
-		System.out.println("O consumo médio deste automóvel foi:\n" + consumoMedio + " KM/L");
+		System.out.println("O consumo mÃ©dio deste automÃ³vel foi:\n" + consumoMedio + " KM/L");
 		
 		leitor.close();
 

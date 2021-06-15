@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Lista_Bonus_2_ex8 {
 
-	// 8 – Um professor quer saber quantos alunos de uma sala de 5 tiveram nota maior do que a média. Faça um programa onde o professor informe a média e as notas de cada um dos 5 alunos e, ao final, seja exibido quantos alunos tiveram nota superior à média e quantos tiveram nota inferior à média.
+	// 8 ï¿½ Um professor quer saber quantos alunos de uma sala de 5 tiveram nota maior do que a mï¿½dia. Faï¿½a um programa onde o professor informe a mï¿½dia e as notas de cada um dos 5 alunos e, ao final, seja exibido quantos alunos tiveram nota superior ï¿½ mï¿½dia e quantos tiveram nota inferior ï¿½ mï¿½dia.
 	
 	public static void main(String[] args) {
 
@@ -12,9 +12,9 @@ public class Lista_Bonus_2_ex8 {
 		double media, nota;
 		int contador=0, abaixo=0, acima=0;
 		
-		System.out.println("Programa que calcula a quantidade de alunos acima e abaixo da média");
+		System.out.println("Programa que calcula a quantidade de alunos acima e abaixo da mï¿½dia");
 		
-		System.out.println("Professor, entre com a média de corte:");
+		System.out.println("Professor, entre com a mÃ©dia de corte:");
 		media = leitor.nextDouble();
 		
 		while (contador < 5)
@@ -32,9 +32,9 @@ public class Lista_Bonus_2_ex8 {
 			contador = contador + 1;
 		}
 		
-		System.out.println("A quantidade de alunos acima da média " + media + " é de: " + acima);
+		System.out.println("A quantidade de alunos acima da mÃ©dia " + media + " Ã© de: " + acima);
 		
-		System.out.println("A quantidade de alunos abaixo da média " + media + " é de: " + abaixo);
+		System.out.println("A quantidade de alunos abaixo da mÃ©dia " + media + " Ã© de: " + abaixo);
 		
 		leitor.close();
 

@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Exercicio_Bonus_3 
 {
 
-	// 3. Suponha que vocÍ esteja fazendo um concurso p˙blico.
+	// 3. Suponha que vocÔøΩ esteja fazendo um concurso pÔøΩblico.
 	
-	// Cada candidato ao cargo ter· direito a uma pontuaÁ„o em funÁ„o da sua titulaÁ„o, anos de experiÍncia e idade.
+	// Cada candidato ao cargo terÔøΩ direito a uma pontuaÔøΩÔøΩo em funÔøΩÔøΩo da sua titulaÔøΩÔøΩo, anos de experiÔøΩncia e idade.
 	
-	// Baseado na tabela abaixo, faÁa um programa que leia o nome do candidato, sua titulaÁ„o, tempo de experiÍncia e idade.
+	// Baseado na tabela abaixo, faÔøΩa um programa que leia o nome do candidato, sua titulaÔøΩÔøΩo, tempo de experiÔøΩncia e idade.
 	
-	// O algoritmo dever· ent„o calcular e imprimir o nome do candidato e sua pontuaÁ„o final. 
+	// O algoritmo deverÔøΩ entÔøΩo calcular e imprimir o nome do candidato e sua pontuaÔøΩÔøΩo final. 
 	
-	// AlÈm disso, se o candidato possuir menos de 40 anos de idade, ter· direito a mais 100 pontos.
+	// AlÔøΩm disso, se o candidato possuir menos de 40 anos de idade, terÔøΩ direito a mais 100 pontos.
 	
-	// Caso contr·rio, perder· 50 pontos.
+	// Caso contrÔøΩrio, perderÔøΩ 50 pontos.
 	
 	public static void main(String[] args) 
 	{
@@ -23,7 +23,7 @@ public class Exercicio_Bonus_3
 		int idade, pontuacao, escolha, xp;
 		String nome = "";
 		
-		System.out.println("Programa que calcula a pontuaÁ„o do concurso p˙blico.\n");
+		System.out.println("Programa que calcula a pontua√ß√£oo do concurso p√∫blico.\n");
 		
 		System.out.println("Digite seu Nome:");
 		nome = leitor.next();
@@ -31,7 +31,7 @@ public class Exercicio_Bonus_3
 		System.out.println("Digite sua idade:");
 		idade = leitor.nextInt();
 		
-		System.out.println("Escolha a sua TitulaÁ„o:\n1 - 2∫ Grau\n2 - GraduaÁ„o\n3 - PÛs GraduaÁ„o");
+		System.out.println("Escolha a sua Titula√ß√£o:\n1 - 2¬∫ Grau\n2 - Gradua√ß√£o\n3 - P√≥s Gradua√ß√£o");
 		escolha = leitor.nextInt();
 		
 		if (escolha == 1) 
@@ -40,18 +40,18 @@ public class Exercicio_Bonus_3
 			if (idade > 40) 
 			{
 				pontuacao = 0;
-				System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+				System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 			}
 			else 
 			{
 				pontuacao = 150;
-				System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+				System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 			}
 		}
 		else if (escolha == 2) 
 		{
 			
-			System.out.println("Escolha quantos Anos de ExperiÍncia:\n1 - AtÈ 4 anos\n2 - Acima de 4 anos");
+			System.out.println("Escolha quantos Anos de Experi√™ncia:\n1 - At√© 4 anos\n2 - Acima de 4 anos");
 			xp = leitor.nextInt();
 			
 			if (xp == 1) 
@@ -61,13 +61,13 @@ public class Exercicio_Bonus_3
 				{
 					
 					pontuacao = 20;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					
 					pontuacao = 170;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 			
 			}
@@ -78,19 +78,19 @@ public class Exercicio_Bonus_3
 				{
 					
 					pontuacao = 40;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					
 					pontuacao = 190;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 			}
 		}
 		else if (escolha == 3)
 		{
-			System.out.println("Escolha quantos Anos de ExperiÍncia:\n1 - AtÈ 4 anos\n2 - De 4 a 6 anos\n3 - Mais de 6 anos");
+			System.out.println("Escolha quantos Anos de Experi√™ncia:\n1 - At√© 4 anos\n2 - De 4 a 6 anos\n3 - Mais de 6 anos");
 			xp = leitor.nextInt();
 			
 			if (xp == 1) 
@@ -98,12 +98,12 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 50;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 200;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 			}
 			else if (xp == 2)
@@ -111,12 +111,12 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 70;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 220;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 			}
 			else 
@@ -124,18 +124,18 @@ public class Exercicio_Bonus_3
 				if (idade > 40) 
 				{
 					pontuacao = 100;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 				else 
 				{
 					pontuacao = 250;
-					System.out.println(nome + " sua pontuaÁ„o total ser· de: " + pontuacao + " pontos"); 
+					System.out.println(nome + " sua pontua√ß√£o total ser√° de: " + pontuacao + " pontos"); 
 				}
 			}
 		}
 		else
 		{
-			System.out.println("OpÁ„o inv·lida.");
+			System.out.println("Op√ß√£o inv√°lida.");
 		}
 		
 		leitor.close();
