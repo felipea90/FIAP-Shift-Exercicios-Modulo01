@@ -12,10 +12,13 @@ public class Exercicio_Bonus_5
     {
         Scanner leitor = new Scanner(System.in);
 
-            int sexo, qtdMulheres=0, qtdHomens=0;
+            int sexo, qtdMulheres=0, qtdHomens=0, pessoas;
             float altura, somaAltura=0, mediaAlturaHomens=0, maiorAltura=0, menorAltura=0;
 
-            for (int i=0; i<10; i++) 
+            System.out.println("Informe a quantidade de pessoas no grupo.");
+            pessoas = leitor.nextInt();
+
+            for (int i=0; i < pessoas; i++) 
             {
 
                 System.out.print("Escolha o sexo da pessoa (1-Mulher, 2-Homem): ");
