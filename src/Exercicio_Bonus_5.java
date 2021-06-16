@@ -13,7 +13,7 @@ public class Exercicio_Bonus_5
         Scanner leitor = new Scanner(System.in);
 
             int sexo, qtdMulheres=0, qtdHomens=0, pessoas;
-            float altura, somaAltura=0, mediaAlturaHomens=0, maiorAltura=0, menorAltura=0;
+            float altura, somaAltura=0, mediaAlturaHomens=0, maiorAltura=0, menorAltura=1000000;
 
             System.out.println("Informe a quantidade de pessoas no grupo.");
             pessoas = leitor.nextInt();
@@ -45,11 +45,14 @@ public class Exercicio_Bonus_5
                 {
                     maiorAltura = altura;
                 } 
-                else if (menorAltura < altura) //Tem Bug no cálculo da menor altura, vai precisar armazenar em array e fazer comparação.
+
+                if (altura < menorAltura)
                 {
                     menorAltura = altura;
                 }
-            }
+
+            } 
+            
             mediaAlturaHomens = somaAltura / qtdHomens;
     
             System.out.println("A maior altura do grupo é de " + maiorAltura + " m, e a menor é de " + menorAltura + " m");
@@ -57,5 +60,5 @@ public class Exercicio_Bonus_5
             System.out.println("O número de mulheres é " + qtdMulheres);
 
         leitor.close();
-    } 
+    }
 }
