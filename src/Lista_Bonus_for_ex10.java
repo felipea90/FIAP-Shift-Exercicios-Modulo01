@@ -61,7 +61,7 @@ public class Lista_Bonus_for_ex10
 				}
 				else if (escolha == 2)
 				{
-					System.out.println(nome + " do setor de " + setor + "\nO Rodízio não se aplica.");
+					System.out.println(nome + " do setor de " + setor + " vem ao trabalho de Ônibus. \nO Rodízio não se aplica.");
 				}
 				else
 				{
